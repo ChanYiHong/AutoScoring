@@ -23,6 +23,8 @@ print(np.var(w_height))
 print("Wednesday group standard deviation : ")
 print(np.std(w_height))
 
+print("수정한 부분입니다.")
+
 plotData = [m_height, w_height]
 plt.boxplot(plotData)
 plt.show()
